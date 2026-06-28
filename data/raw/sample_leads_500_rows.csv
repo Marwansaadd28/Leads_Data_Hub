@@ -1,0 +1,501 @@
+lead_id,name,email,phone,source,created_at,status
+1,Lead 1,lead1@example.com,01246913810,Website,2026-06-13 03:01:00,contacted
+2,Lead 2,lead2@example.com,01283197857,Facebook,2026-02-05 23:06:00,lost
+3,Lead 3,lead3@example.com,01041227216,Email Campaign,2026-01-09 00:05:00,new
+4,Lead 4,lead4@example.com,01283140807,Referral,2026-05-24 06:45:00,contacted
+5,Lead 5,lead5@example.com,01031429110,Conference,2026-04-25 18:17:00,lost
+6,Lead 6,lead6@example.com,01055176955,Facebook,2026-03-29 08:09:00,new
+7,Lead 7,lead7@example.com,01191030736,LinkedIn,2026-04-08 03:22:00,new
+8,Lead 8,lead8@example.com,01120576383,Email Campaign,2026-04-28 17:07:00,qualified
+9,Lead 9,lead9@example.com,01187490893,Website,2026-06-10 19:56:00,new
+10,Lead 10,lead10@example.com,01120709497,Website,2026-01-12 21:14:00,new
+11,Lead 11,lead11@example.com,01258966946,Website,2026-04-08 08:29:00,qualified
+12,Lead 12,lead12@example.com,01196977837,Facebook,2026-04-01 06:42:00,contacted
+13,Lead 13,lead13@example.com,01072043515,Referral,2026-05-17 23:15:00,qualified
+14,Lead 14,lead14@example.com,01053524491,Facebook,2026-06-13 22:35:00,contacted
+15,Lead 15,lead15@example.com,01118883684,Website,2026-01-09 10:25:00,qualified
+16,Lead 16,lead16@example.com,01196282117,Referral,2026-02-24 20:31:00,contacted
+17,Lead 17,lead17@example.com,01285345555,Email Campaign,2026-03-09 04:15:00,qualified
+18,Lead 18,lead18@example.com,01263606628,LinkedIn,2026-05-30 13:57:00,contacted
+19,Lead 19,lead19@example.com,01016323852,Facebook,2026-02-05 16:31:00,contacted
+20,Lead 20,lead20@example.com,01266661351,Email Campaign,2026-06-10 05:50:00,new
+21,Lead 21,lead21@example.com,01181016525,LinkedIn,2026-04-09 12:38:00,new
+22,Lead 22,lead22@example.com,01282070937,LinkedIn,2026-06-24 23:07:00,qualified
+23,Lead 23,lead23@example.com,01070897765,Facebook,2026-01-29 09:27:00,qualified
+24,Lead 24,,01093926371,LinkedIn,2026-05-09 05:32:00,contacted
+25,Lead 25,lead25@example.com,01082394227,Email Campaign,2026-02-09 11:48:00,new
+26,Lead 26,lead26@example.com,01025014631,LinkedIn,2026-06-03 10:31:00,qualified
+27,Lead 27,lead27@example.com,01220570592,Facebook,2026-03-03 01:15:00,lost
+28,Lead 28,lead28@example.com,01027232410,Conference,2026-01-18 17:49:00,lost
+29,Lead 29,lead29@example.com,01291415657,Referral,2026-05-21 05:16:00,contacted
+30,Lead 30,lead30@example.com,01051837852,Referral,2026-05-19 23:44:00,qualified
+31,Lead 31,lead31@example.com,01043273328,Website,2026-04-23 16:28:00,new
+32,Lead 32,lead32@example.com,01240885476,Email Campaign,2026-03-28 00:37:00,contacted
+33,Lead 33,lead33@example.com,01217901903,Website,2026-01-02 02:45:00,new
+34,Lead 34,lead34@example.com,01241944441,LinkedIn,2026-01-09 10:04:00,lost
+35,Lead 35,lead35@example.com,01286644106,Email Campaign,2026-02-24 17:08:00,lost
+36,Lead 36,lead36@example.com,01135556386,Facebook,2026-03-04 15:51:00,new
+37,Lead 37,lead37@example.com,01165177213,Referral,2026-06-18 13:22:00,new
+38,Lead 38,lead38@example.com,01018135295,Referral,2026-06-22 20:41:00,qualified
+39,Lead 39,lead39@example.com,01081979055,Referral,2026-01-28 07:12:00,contacted
+40,Lead 40,lead40@example.com,01143528453,Facebook,2026-04-19 05:17:00,lost
+41,Lead 41,lead41@example.com,01282556484,Facebook,2026-05-21 03:03:00,new
+42,Lead 42,lead42@example.com,01174606833,Website,2026-03-02 05:26:00,lost
+43,Lead 43,lead43@example.com,01062401521,LinkedIn,2026-01-16 05:24:00,lost
+44,Lead 44,lead44@example.com,01284593961,Conference,2026-03-15 13:44:00,lost
+45,Lead 45,lead45@example.com,01017849494,Email Campaign,2026-02-09 06:18:00,new
+46,Lead 46,lead46@example.com,01273993471,Email Campaign,2026-03-22 01:03:00,contacted
+47,Lead 47,lead47@example.com,01019196777,Email Campaign,2026-01-15 16:05:00,new
+48,Lead 48,lead48@example.com,01086460539,Website,2026-06-22 07:25:00,new
+49,Lead 49,lead49@example.com,01288339168,Email Campaign,2026-06-08 02:26:00,qualified
+50,Lead 50,lead50@example.com,01252169044,Website,2026-03-08 06:42:00,qualified
+51,Lead 51,lead51@example.com,01250264926,Referral,2026-04-12 04:42:00,qualified
+52,Lead 52,lead52@example.com,01285563727,Facebook,2026-01-19 00:29:00,new
+53,Lead 53,lead53@example.com,01127778019,LinkedIn,2026-05-18 06:32:00,new
+54,Lead 54,lead54@example.com,01068812137,Email Campaign,2026-03-04 11:18:00,qualified
+55,Lead 55,lead55@example.com,01099639081,Email Campaign,2026-06-06 20:33:00,qualified
+56,Lead 56,lead56@example.com,01045496015,Facebook,2026-06-19 03:56:00,new
+57,Lead 57,lead57@example.com,01191178885,Website,2026-05-22 04:17:00,pending
+58,Lead 58,lead58@example.com,01177834855,Referral,2026-02-22 21:40:00,qualified
+59,Lead 59,lead59@example.com,01147135391,Facebook,2026-01-14 02:40:00,new
+60,Lead 60,lead60@example.com,01131687165,Conference,2026-03-27 04:40:00,lost
+61,Lead 61,lead61@example.com,01211297845,Facebook,2026-05-22 22:27:00,new
+62,Lead 62,lead62@example.com,01059555330,Email Campaign,2026-06-26 04:34:00,contacted
+63,Lead 63,lead63@example.com,01158942697,Facebook,2026-04-21 04:02:00,qualified
+64,Lead 64,lead64@example.com,01223796726,LinkedIn,2026-02-23 21:15:00,lost
+65,Lead 65,lead65@example.com,01031810617,Website,2026-06-08 23:09:00,lost
+66,Lead 66,lead66@example.com,01165259205,Conference,2026-01-07 05:47:00,contacted
+67,Lead 67,lead67@example.com,01224508349,Referral,2026-03-10 05:50:00,new
+68,Lead 68,lead68@example.com,01156930359,LinkedIn,2026-05-01 07:12:00,contacted
+69,Lead 69,lead69@example.com,01063481198,LinkedIn,2026-02-27 00:42:00,qualified
+70,Lead 70,lead70@example.com,01278371272,Referral,2026-01-18 08:22:00,qualified
+71,Lead 71,lead71@example.com,01133966966,Email Campaign,2026-01-08 03:56:00,qualified
+72,Lead 72,lead72@example.com,01156397338,Conference,2026-01-10 03:38:00,qualified
+73,Lead 73,lead73@example.com,01061700055,Email Campaign,2026-04-22 19:32:00,contacted
+74,Lead 74,lead74@example.com,01110226999,Email Campaign,2026-03-07 01:45:00,contacted
+75,Lead 75,lead75@example.com,01254318698,Email Campaign,2026-04-04 13:04:00,qualified
+76,Lead 76,lead76@example.com,01178064830,LinkedIn,2026-06-19 03:46:00,lost
+77,Lead 77,lead77@example.com,01184411983,Website,2026-03-25 12:44:00,contacted
+78,Lead 78,lead78@example.com,01233357554,Email Campaign,2026-04-18 21:24:00,qualified
+79,Lead 79,lead79@example.com,01050785405,LinkedIn,2026-04-14 17:53:00,contacted
+80,Lead 80,lead80@example.com,01253251559,Referral,2026-04-21 18:38:00,lost
+81,Lead 81,lead81@example.com,01273509974,Conference,2026-04-24 21:13:00,contacted
+82,Lead 82,lead82@example.com,01299100953,Conference,2026-06-18 02:18:00,qualified
+83,Lead 83,lead83@example.com,01140150759,Website,31/02/2026,contacted
+84,Lead 84,lead84@example.com,01192043803,Facebook,2026-01-07 01:15:00,lost
+85,Lead 85,lead85@example.com,01061536717,Referral,2026-04-17 20:36:00,lost
+86,Lead 86,lead86@example.com,01210744212,Facebook,2026-03-04 04:41:00,lost
+87,Lead 87,lead87@example.com,01279519112,Referral,2026-02-26 05:51:00,new
+88,Lead 88,lead88@example.com,01071265269,Website,2026-05-23 07:58:00,lost
+89,Lead 89,lead89@example.com,01252587010,Referral,2026-06-20 16:35:00,lost
+90,Lead 90,lead90@example.com,01073709724,Referral,2026-05-21 14:57:00,qualified
+91,Lead 91,lead91@example.com,01275041510,Conference,2026-03-05 20:17:00,contacted
+92,Lead 92,lead92@example.com,01248349783,Website,2026-03-12 14:04:00,qualified
+93,Lead 93,lead93@example.com,01220814950,Website,2026-03-27 10:57:00,contacted
+94,Lead 94,lead94@example.com,01038716269,Facebook,2026-03-01 12:44:00,lost
+95,Lead 95,lead95@example.com,01165804273,Facebook,2026-04-15 10:34:00,contacted
+96,Lead 96,lead96@example.com,01212621534,Email Campaign,2026-04-18 12:57:00,lost
+97,Lead 97,lead97@example.com,01162343121,Referral,2026-05-03 00:22:00,contacted
+98,Lead 98,lead98@example.com,01175181765,Facebook,2026-05-05 07:17:00,lost
+99,Lead 99,lead99@example.com,01132151928,Referral,2026-03-28 21:43:00,contacted
+100,Lead 100,lead100@example.com,01189442503,Email Campaign,2026-06-09 17:01:00,new
+101,Lead 101,lead101@example.com,01071968116,Website,2026-01-22 20:27:00,new
+102,Lead 102,lead102@example.com,01071028710,LinkedIn,2026-03-08 12:20:00,qualified
+103,Lead 103,lead103@example.com,01143859311,Facebook,2026-04-08 08:48:00,lost
+104,Lead 104,lead104@example.com,01056970882,Website,2026-01-05 23:34:00,new
+105,Lead 105,lead105@example.com,01043189803,Website,2026-06-16 01:48:00,new
+106,Lead 106,lead106@example.com,01073560289,Conference,2026-06-09 04:15:00,new
+107,Lead 107,lead107@example.com,01244392446,LinkedIn,2026-05-25 06:29:00,contacted
+108,Lead 108,lead108@example.com,01225372341,Website,2026-06-05 19:47:00,qualified
+109,Lead 109,lead109@example.com,01187282128,Conference,2026-01-28 18:01:00,lost
+110,Lead 110,lead110@example.com,01089470029,Conference,2026-04-12 22:12:00,contacted
+111,Lead 111,lead111@example.com,01190585882,Facebook,2026-01-27 22:49:00,new
+,Lead 112,lead112@example.com,01259737181,Facebook,2026-03-30 17:27:00,qualified
+113,Lead 113,lead113@example.com,01124165187,Referral,2026-01-04 13:52:00,qualified
+114,Lead 114,lead114@example.com,01068450095,Website,2026-06-12 14:45:00,qualified
+115,Lead 115,lead115@example.com,01172394301,Referral,2026-06-07 17:49:00,qualified
+116,Lead 116,lead116@example.com,01047437115,Referral,2026-03-24 07:53:00,contacted
+117,Lead 117,lead117@example.com,01260867083,LinkedIn,2026-04-29 18:39:00,new
+118,Lead 118,lead118@example.com,01138470244,LinkedIn,2026-05-07 10:11:00,qualified
+119,Lead 119,lead119@example.com,01247080140,Email Campaign,2026-03-29 08:56:00,new
+120,Lead 120,lead120@example.com,01064549859,Referral,2026-05-13 06:05:00,contacted
+121,Lead 121,lead121@example.com,01275876924,Referral,2026-06-26 15:41:00,new
+122,Lead 122,lead122@example.com,01142655866,LinkedIn,2026-01-24 09:14:00,qualified
+123,Lead 123,lead123@example.com,01167110154,Conference,2026-05-02 17:33:00,qualified
+124,Lead 124,lead124@example.com,01151154241,LinkedIn,2026-04-01 22:29:00,contacted
+125,Lead 125,lead125@example.com,01126046365,Conference,2026-01-31 23:12:00,contacted
+126,Lead 126,lead126@example.com,01147111151,Conference,2026-02-19 06:47:00,qualified
+127,Lead 127,lead127@example.com,01058436637,Website,2026-01-26 06:18:00,qualified
+128,Lead 128,lead128@example.com,01046817443,Facebook,2026-01-04 22:34:00,new
+129,Lead 129,lead129@example.com,01095613415,Referral,2026-05-22 09:44:00,new
+130,Lead 130,lead130@example.com,01174251933,Referral,2026-01-04 18:18:00,qualified
+131,Lead 131,lead131@example.com,01125312516,Facebook,2026-02-17 01:16:00,lost
+132,Lead 132,lead132@example.com,01217195288,Website,2026-05-06 02:36:00,contacted
+133,Lead 133,lead133@example.com,01025898299,Email Campaign,2026-05-25 09:05:00,lost
+134,Lead 134,lead134@example.com,01240291214,Email Campaign,2026-06-05 19:50:00,lost
+135,Lead 135,lead135@example.com,01267556566,LinkedIn,2026-04-26 14:19:00,new
+136,Lead 136,lead136@example.com,01093955206,Website,2026-06-06 23:06:00,qualified
+137,Lead 137,lead137@example.com,01033328859,Email Campaign,2026-06-19 02:10:00,new
+138,Lead 138,lead138@example.com,01189699989,Referral,2026-02-10 00:26:00,qualified
+139,Lead 139,lead139@example.com,01247945817,Conference,2026-01-09 07:18:00,lost
+140,Lead 140,lead140@example.com,01193893865,Email Campaign,2026-01-19 21:14:00,contacted
+141,Lead 141,lead141@example.com,01096924061,Website,2026-04-19 03:34:00,qualified
+142,Lead 142,lead142@example.com,01051286958,Email Campaign,2026-02-06 02:03:00,qualified
+143,Lead 143,lead143@example.com,01250814428,Conference,2026-04-23 03:29:00,lost
+144,Lead 144,lead144@example.com,01168755000,Facebook,2026-03-11 16:34:00,new
+145,Lead 145,not-an-email,01243603811,Facebook,2026-04-21 23:20:00,new
+146,Lead 146,lead146@example.com,01288802305,Facebook,2026-02-28 21:53:00,qualified
+147,Lead 147,lead147@example.com,01073149551,Email Campaign,2026-05-28 01:48:00,lost
+148,Lead 148,lead148@example.com,01195199362,Referral,2026-03-13 05:37:00,new
+149,Lead 149,lead149@example.com,01153091709,Conference,2026-05-01 11:26:00,new
+150,Lead 150,lead150@example.com,01276500726,LinkedIn,2026-02-11 10:26:00,lost
+151,Lead 151,lead151@example.com,01052213778,LinkedIn,2026-05-21 01:29:00,qualified
+152,Lead 152,lead152@example.com,01210154493,Conference,2026-01-30 12:55:00,lost
+153,Lead 153,lead153@example.com,01258557203,Email Campaign,2026-04-16 01:12:00,lost
+154,Lead 154,lead154@example.com,01037321124,LinkedIn,2026-06-10 14:48:00,contacted
+155,Lead 155,lead155@example.com,01275056916,Facebook,2026-03-15 14:56:00,new
+156,Lead 156,lead156@example.com,01031257157,LinkedIn,2026-06-11 19:51:00,new
+157,Lead 157,lead157@example.com,01025228493,Referral,2026-05-22 13:05:00,new
+158,Lead 158,lead158@example.com,01249172995,Email Campaign,2026-06-15 04:31:00,qualified
+159,Lead 159,lead159@example.com,01071308842,Email Campaign,2026-04-17 15:30:00,contacted
+160,Lead 160,lead160@example.com,01278214937,Conference,2026-04-09 06:58:00,contacted
+161,Lead 161,lead161@example.com,01155617282,Email Campaign,2026-01-18 08:49:00,qualified
+162,Lead 162,lead162@example.com,01188777447,Email Campaign,2026-01-01 09:46:00,lost
+163,Lead 163,lead163@example.com,01156321751,LinkedIn,2026-02-08 14:34:00,lost
+164,Lead 164,lead164@example.com,01042051937,Email Campaign,2026-04-27 10:55:00,lost
+165,Lead 165,lead165@example.com,01173481797,Conference,2026-03-01 13:02:00,lost
+166,Lead 166,lead166@example.com,01230415230,Referral,2026-04-09 21:50:00,new
+167,Lead 167,lead167@example.com,01123470708,Referral,2026-02-02 16:37:00,new
+168,Lead 168,lead168@example.com,01229348212,Referral,2026-05-15 14:00:00,contacted
+169,Lead 169,lead169@example.com,01155440919,Email Campaign,2026-01-20 15:50:00,lost
+170,Lead 170,lead170@example.com,01181621574,Referral,2026-06-16 02:54:00,qualified
+171,Lead 171,lead171@example.com,01182613940,Facebook,2026-06-10 22:56:00,new
+172,Lead 172,lead172@example.com,01140532691,Conference,2026-03-02 20:43:00,new
+173,Lead 173,lead173@example.com,01223489853,Referral,2026-04-22 03:48:00,contacted
+174,Lead 174,lead174@example.com,01016172803,LinkedIn,2026-06-27 09:57:00,new
+175,Lead 175,lead175@example.com,01129538047,Website,2026-03-17 11:23:00,lost
+176,Lead 176,lead176@example.com,01032814819,Website,2026-05-25 21:50:00,NEW
+177,Lead 177,lead177@example.com,01242323627,Referral,2026-06-06 12:39:00,contacted
+178,Lead 178,lead178@example.com,01171682508,LinkedIn,2026-03-01 14:40:00,new
+179,Lead 179,lead179@example.com,01231203129,Facebook,2026-04-30 09:43:00,lost
+180,Lead 180,lead180@example.com,01266949781,Conference,2026-03-30 18:19:00,qualified
+181,Lead 181,lead181@example.com,01174855088,Facebook,2026-04-27 09:12:00,contacted
+182,Lead 182,lead182@example.com,01249711319,Conference,2026-04-08 18:22:00,qualified
+183,Lead 183,lead183@example.com,01111086890,Email Campaign,2026-01-06 21:25:00,new
+184,Lead 184,lead184@example.com,01140885967,Email Campaign,2026-06-05 23:31:00,qualified
+185,Lead 185,lead185@example.com,01243638559,Conference,2026-02-26 20:12:00,contacted
+186,Lead 186,lead186@example.com,01296750368,Facebook,2026-06-10 03:57:00,qualified
+187,Lead 187,lead187@example.com,01127637794,Facebook,2026-04-23 01:37:00,qualified
+188,Lead 188,lead188@example.com,01036950221,Website,2026-03-25 23:26:00,qualified
+189,Lead 189,lead189@example.com,01132084778,LinkedIn,2026-05-16 16:58:00,lost
+190,Lead 190,lead190@example.com,01125457816,Referral,2026-03-17 23:55:00,new
+191,Lead 191,lead191@example.com,01263339667,Email Campaign,2026-02-06 07:55:00,qualified
+192,Lead 192,lead192@example.com,01182017516,Facebook,2026-01-24 12:00:00,lost
+193,Lead 193,lead193@example.com,01245186708,Email Campaign,2026-04-05 21:47:00,lost
+194,Lead 194,lead194@example.com,01241383044,Referral,2026-06-13 11:06:00,new
+195,Lead 195,lead195@example.com,01239711402,Conference,2026-06-08 17:20:00,new
+196,Lead 196,lead196@example.com,01250559278,Conference,2026-06-12 14:58:00,lost
+197,Lead 197,lead197@example.com,01050851122,Referral,2026-01-30 04:02:00,new
+198,Lead 198,lead198@example.com,01228208520,Referral,2026-01-25 07:56:00,lost
+199,Lead 199,lead199@example.com,01282503409,Referral,2026-04-05 21:47:00,contacted
+200,Lead 200,lead200@example.com,01192631441,Referral,2026-04-17 20:06:00,qualified
+201,Lead 201,lead201@example.com,01069509870,Referral,2026-01-09 22:23:00,contacted
+202,Lead 202,lead202@example.com,01183076970,Conference,2026-04-03 03:43:00,qualified
+203,Lead 203,lead203@example.com,,Referral,2026-01-16 12:17:00,new
+204,Lead 204,lead204@example.com,01290147573,Facebook,2026-06-19 06:41:00,new
+205,Lead 205,lead205@example.com,01237542226,Facebook,2026-03-27 07:08:00,contacted
+206,Lead 206,lead206@example.com,01054098516,Website,2026-05-31 06:52:00,new
+207,Lead 207,lead207@example.com,01243642236,Website,2026-03-12 04:08:00,new
+208,Lead 208,lead208@example.com,01058082464,Website,2026-06-19 00:08:00,qualified
+209,Lead 209,lead209@example.com,01027013243,Conference,2026-01-05 05:16:00,lost
+210,Lead 210,lead210@example.com,01073920651,Referral,2026-05-15 03:47:00,qualified
+211,Lead 211,lead211@example.com,01177624084,Website,2026-05-12 18:06:00,new
+212,Lead 212,lead212@example.com,01196347724,Facebook,2026-06-18 16:19:00,new
+213,Lead 213,lead213@example.com,01224490391,Referral,2026-05-03 12:27:00,lost
+214,Lead 214,lead214@example.com,01229909029,Facebook,2026-01-19 02:20:00,contacted
+215,Lead 215,lead215@example.com,01283599154,Conference,2026-03-12 19:40:00,qualified
+216,Lead 216,lead216@example.com,01170896652,Email Campaign,2026-04-08 19:33:00,lost
+217,Lead 217,lead217@example.com,01297364555,Email Campaign,2026-01-26 22:07:00,contacted
+218,Lead 218,lead218@example.com,01065541117,LinkedIn,2026-04-21 14:56:00,lost
+219,Lead 219,lead219@example.com,01051949529,Referral,2026-04-13 13:46:00,qualified
+220,Lead 220,lead220@example.com,01073655158,Facebook,2026-06-20 08:23:00,new
+221,Lead 221,lead221@example.com,01060015814,Website,2026-01-22 02:27:00,new
+222,Lead 222,lead222@example.com,01199927658,Facebook,2026-05-31 17:35:00,lost
+223,Lead 223,lead223@example.com,01116904975,LinkedIn,2026-04-01 21:48:00,qualified
+224,Lead 224,lead224@example.com,01238553319,Website,2026-04-01 03:36:00,lost
+225,Lead 225,lead225@example.com,01259333209,Facebook,2026-02-27 03:22:00,qualified
+226,Lead 226,lead226@example.com,01185291541,Email Campaign,2026-05-27 07:51:00,new
+227,Lead 227,lead227@example.com,01245896226,Facebook,2026-06-05 21:53:00,contacted
+228,Lead 228,lead228@example.com,01155610493,LinkedIn,2026-03-11 22:48:00,new
+229,Lead 229,lead229@example.com,01263792364,Facebook,2026-02-16 04:36:00,contacted
+230,Lead 230,lead230@example.com,01281200181,Website,2026-06-12 00:05:00,lost
+231,Lead 231,lead231@example.com,01059667685,LinkedIn,invalid-date,qualified
+232,Lead 232,lead232@example.com,01030881581,Website,2026-05-26 19:05:00,new
+233,Lead 233,lead233@example.com,01198843907,Referral,2026-06-22 02:17:00,lost
+234,Lead 234,lead234@example.com,01138933176,Email Campaign,2026-06-05 14:26:00,new
+235,Lead 235,lead235@example.com,01189609131,Referral,2026-03-30 13:07:00,qualified
+236,Lead 236,lead236@example.com,01217352710,Facebook,2026-01-12 07:25:00,contacted
+237,Lead 237,lead237@example.com,01044295247,LinkedIn,2026-03-19 06:49:00,qualified
+238,Lead 238,lead238@example.com,01267801537,Website,2026-01-31 00:31:00,contacted
+239,Lead 239,lead239@example.com,01077144075,Email Campaign,2026-04-08 17:45:00,qualified
+240,Lead 240,lead240@example.com,01215677713,Referral,2026-01-19 12:55:00,new
+241,Lead 241,lead241@example.com,01187277086,Referral,2026-04-28 02:55:00,lost
+242,Lead 242,lead242@example.com,01064362516,Facebook,2026-06-13 13:18:00,qualified
+243,Lead 243,lead243@example.com,01258567046,Facebook,2026-02-13 19:29:00,lost
+244,Lead 244,lead244@example.com,01263747464,Email Campaign,2026-01-28 07:27:00,new
+245,Lead 245,lead245@example.com,01139738898,LinkedIn,2026-04-12 09:47:00,contacted
+246,Lead 246,lead246@example.com,01081216573,Email Campaign,2026-01-20 16:40:00,contacted
+247,Lead 247,lead247@example.com,01229822594,Website,2026-03-31 11:46:00,new
+248,Lead 248,lead248@example.com,01090852623,Website,2026-02-07 08:12:00,new
+249,Lead 249,lead249@example.com,01185663295,Email Campaign,2026-02-15 20:31:00,lost
+250,Lead 250,lead250@example.com,01293821894,LinkedIn,2026-06-24 18:41:00,qualified
+251,Lead 251,lead251@example.com,01169352161,Conference,2026-02-08 14:04:00,qualified
+252,Lead 252,lead252@example.com,01178093604,Facebook,2026-03-12 18:03:00,qualified
+253,Lead 253,lead253@example.com,01059491122,LinkedIn,2026-04-29 14:02:00,new
+254,Lead 254,lead254@example.com,01278057490,Referral,2026-06-15 02:39:00,lost
+255,Lead 255,lead255@example.com,01215505975,Referral,2026-05-29 17:50:00,contacted
+256,Lead 256,lead256@example.com,01230248230,Facebook,2026-03-24 19:30:00,lost
+257,Lead 257,lead257@example.com,01077719420,Conference,2026-01-27 10:45:00,contacted
+258,Lead 258,lead258@example.com,01168978194,Email Campaign,2026-01-11 07:45:00,contacted
+259,Lead 259,lead259@example.com,01161998170,Referral,2026-04-04 11:58:00,qualified
+260,Lead 260,lead260@example.com,01296879854,LinkedIn,2026-06-23 19:03:00,new
+261,Lead 261,lead261@example.com,01261883769,LinkedIn,2026-03-26 03:35:00,qualified
+262,Lead 262,lead262@example.com,01054743095,Facebook,2026-06-18 19:55:00,contacted
+263,Lead 263,lead263@example.com,01298870276,Referral,2026-03-31 09:41:00,contacted
+264,Lead 264,lead264@example.com,01185017250,Referral,2026-06-02 22:05:00,qualified
+265,Lead 265,lead265@example.com,01280651318,Facebook,2026-02-02 21:44:00,lost
+266,Lead 266,lead266@example.com,01151455302,Website,2026-05-11 11:01:00,contacted
+50,Lead 267,lead267@example.com,01028463709,Website,2026-03-29 15:12:00,new
+268,Lead 268,lead268@example.com,01280669879,Facebook,2026-03-17 03:32:00,qualified
+269,Lead 269,lead269@example.com,01130703455,Website,2026-06-08 04:38:00,contacted
+270,Lead 270,lead270@example.com,01068743530,Facebook,2026-06-27 19:51:00,lost
+271,Lead 271,lead271@example.com,01069619341,Email Campaign,2026-04-04 21:46:00,qualified
+272,Lead 272,lead272@example.com,01051536077,Referral,2026-04-25 07:34:00,contacted
+273,Lead 273,lead273@example.com,01171965637,LinkedIn,2026-04-05 21:36:00,lost
+274,Lead 274,lead274@example.com,01036802975,Email Campaign,2026-05-09 16:26:00,contacted
+275,Lead 275,lead275@example.com,01159823245,Email Campaign,2026-03-06 01:41:00,new
+276,Lead 276,lead276@example.com,01031516757,LinkedIn,2026-05-13 03:18:00,lost
+277,Lead 277,lead277@example.com,01122309586,Website,2026-05-12 04:53:00,lost
+278,Lead 278,lead278@example.com,01063211150,Email Campaign,2026-03-31 00:26:00,qualified
+279,Lead 279,lead279@example.com,01140137082,Facebook,2026-03-02 12:05:00,qualified
+280,Lead 280,lead280@example.com,01129602406,Website,2026-01-26 22:41:00,new
+281,Lead 281,lead281@example.com,01072962895,Referral,2026-03-15 15:44:00,new
+282,Lead 282,lead282@example.com,01030068183,Email Campaign,2026-01-21 00:16:00,lost
+283,Lead 283,lead283@example.com,01126354208,Facebook,2026-01-29 09:15:00,contacted
+284,Lead 284,lead284@example.com,01271352751,Facebook,2026-04-18 20:50:00,new
+285,Lead 285,lead285@example.com,01094819556,Email Campaign,2026-05-08 19:34:00,contacted
+286,Lead 286,lead286@example.com,01092518345,LinkedIn,2026-02-06 09:27:00,contacted
+287,Lead 287,lead287@example.com,01299686286,Facebook,2026-05-27 13:11:00,qualified
+288,Lead 288,lead288@example.com,01278131950,Email Campaign,2026-01-18 16:34:00,new
+289,Lead 289,lead289@example.com,01261926331,LinkedIn,2026-04-10 15:02:00,qualified
+290,Lead 290,lead290@example.com,01056278607,Website,2026-01-05 11:50:00,new
+291,Lead 291,lead291@example.com,01127905932,Facebook,2026-05-29 23:48:00,qualified
+292,Lead 292,lead292@example.com,01233500064,Conference,2026-05-20 10:52:00,lost
+293,Lead 293,lead293@example.com,01028099607,Facebook,2026-06-28 15:40:00,lost
+294,Lead 294,lead294@example.com,01036772387,Facebook,2026-01-10 09:12:00,qualified
+295,Lead 295,lead295@example.com,01273538641,LinkedIn,2026-03-21 16:25:00,new
+296,Lead 296,lead296@example.com,01116416148,Conference,2026-06-15 06:18:00,qualified
+297,Lead 297,lead297@example.com,01168646621,Referral,2026-03-11 03:51:00,lost
+298,Lead 298,lead298@example.com,01176776459,LinkedIn,2026-04-09 10:11:00,qualified
+299,Lead 299,lead299@example.com,01067795113,,2026-01-22 23:27:00,contacted
+300,Lead 300,lead300@example.com,01020746667,LinkedIn,2026-05-20 09:20:00,qualified
+301,Lead 301,lead301@example.com,01267192331,Website,2026-03-20 14:38:00,lost
+302,Lead 302,lead302@example.com,01257319709,Email Campaign,2026-03-31 14:02:00,lost
+303,Lead 303,lead303@example.com,01020071854,Conference,2026-03-12 20:50:00,lost
+304,Lead 304,lead304@example.com,01231473054,Facebook,2026-04-04 16:51:00,contacted
+305,Lead 305,lead305@example.com,01114670638,Website,2026-06-05 21:50:00,new
+306,Lead 306,lead306@example.com,01161385847,Email Campaign,2026-03-02 20:23:00,new
+307,Lead 307,lead307@example.com,01159790013,LinkedIn,2026-06-04 04:43:00,lost
+308,Lead 308,lead308@example.com,01259251188,Referral,2026-01-20 18:08:00,qualified
+309,Lead 309,lead309@example.com,01013478029,Conference,2026-06-16 08:15:00,contacted
+310,Lead 310,lead310@example.com,01225805613,LinkedIn,2026-05-08 16:24:00,qualified
+311,Lead 311,lead311@example.com,01248329479,Conference,2026-06-30 14:13:00,lost
+312,Lead 312,lead312@example.com,01070672142,Website,2026-02-21 03:08:00,lost
+313,Lead 313,lead313@example.com,01199635939,LinkedIn,2026-01-23 21:54:00,new
+314,Lead 314,lead314@example.com,01131139996,Conference,2026-05-21 17:18:00,contacted
+315,Lead 315,lead315@example.com,01036975128,Website,2026-04-03 16:14:00,contacted
+316,Lead 316,lead316@example.com,01286809773,LinkedIn,2026-05-07 00:23:00,lost
+317,Lead 317,lead317@example.com,01018824561,LinkedIn,2026-05-22 04:39:00,lost
+318,Lead 318,lead318@example.com,01187161840,Facebook,2026-05-03 16:26:00,contacted
+319,Lead 319,lead319@example.com,01172523073,Conference,2026-03-23 20:04:00,qualified
+320,Lead 320,lead320@example.com,01234422678,Website,2026-02-02 17:40:00,lost
+321,Lead 321,lead321@example.com,01079538491,Website,2026-05-09 01:53:00,qualified
+322,Lead 322,lead322example.com,01240262109,LinkedIn,2026-02-12 05:20:00,qualified
+323,Lead 323,lead323@example.com,01283932683,LinkedIn,2026-01-21 08:12:00,contacted
+324,Lead 324,lead324@example.com,01222539748,Email Campaign,2026-06-10 09:39:00,contacted
+325,Lead 325,lead325@example.com,01098413629,Email Campaign,2026-06-01 18:09:00,qualified
+326,Lead 326,lead326@example.com,01020901547,Facebook,2026-05-25 01:52:00,qualified
+327,Lead 327,lead327@example.com,01265913331,Email Campaign,2026-06-16 06:49:00,new
+328,Lead 328,lead328@example.com,01196155337,LinkedIn,2026-05-08 20:34:00,lost
+329,Lead 329,lead329@example.com,01170873663,Facebook,2026-03-04 21:25:00,new
+330,Lead 330,lead330@example.com,01172336371,Website,2026-02-10 14:26:00,qualified
+331,Lead 331,lead331@example.com,01252857920,Conference,2026-06-05 04:20:00,qualified
+332,Lead 332,lead332@example.com,01179119463,Email Campaign,2026-04-13 04:48:00,new
+333,Lead 333,lead333@example.com,01045899440,Referral,2026-03-23 07:29:00,contacted
+334,Lead 334,lead334@example.com,01161559717,Email Campaign,2026-02-06 03:03:00,lost
+335,Lead 335,lead335@example.com,01187535841,Conference,2026-03-05 05:52:00,qualified
+336,Lead 336,lead336@example.com,01272654864,Referral,2026-02-18 05:31:00,qualified
+337,Lead 337,lead337@example.com,01177839607,Referral,2026-05-08 00:05:00,contacted
+338,Lead 338,lead338@example.com,01016783418,LinkedIn,2026-02-25 18:22:00,lost
+339,Lead 339,lead339@example.com,01148352498,Email Campaign,2026-06-02 20:43:00,new
+340,Lead 340,lead340@example.com,01159093843,Referral,2026-01-28 13:08:00,qualified
+341,Lead 341,lead341@example.com,01285405783,Website,2026-01-12 12:03:00,qualified
+342,Lead 342,lead342@example.com,01177680031,Referral,2026-05-22 09:04:00,qualified
+343,Lead 343,lead343@example.com,01027268907,Facebook,2026-06-09 21:39:00,lost
+344,Lead 344,lead344@example.com,01129363237,Website,2026-04-06 10:35:00,lost
+345,Lead 345,lead345@example.com,01028392710,Conference,2026-05-09 01:02:00,qualified
+346,Lead 346,lead346@example.com,01091370909,Email Campaign,2026-05-02 16:29:00,contacted
+347,Lead 347,lead347@example.com,01062741471,Email Campaign,2026-03-25 19:20:00,qualified
+348,Lead 348,lead348@example.com,01281449442,Referral,2026-06-01 10:32:00,qualified
+349,Lead 349,lead349@example.com,01124710878,Referral,2026-05-02 00:23:00,qualified
+350,Lead 350,lead350@example.com,01273698420,LinkedIn,2026-06-26 20:01:00,contacted
+351,Lead 351,lead351@example.com,01080361272,Conference,2026-01-14 18:30:00,Closed
+352,Lead 352,lead352@example.com,01086849080,Conference,2026-02-07 21:15:00,new
+353,Lead 353,lead353@example.com,01166207740,Website,2026-02-18 00:28:00,lost
+354,Lead 354,lead354@example.com,01292071195,Referral,2026-06-26 06:26:00,new
+355,Lead 355,lead355@example.com,01085280948,LinkedIn,2026-06-30 04:33:00,lost
+356,Lead 356,lead356@example.com,01071694994,Email Campaign,2026-05-15 12:20:00,qualified
+357,Lead 357,lead357@example.com,01296343485,Conference,2026-05-20 11:43:00,qualified
+358,Lead 358,lead358@example.com,01047447604,Email Campaign,2026-06-06 15:12:00,qualified
+359,Lead 359,lead359@example.com,01137820354,Conference,2026-02-27 09:49:00,lost
+360,Lead 360,lead360@example.com,01246702849,LinkedIn,2026-03-23 15:22:00,new
+361,Lead 361,lead361@example.com,01162953249,LinkedIn,2026-05-27 21:34:00,contacted
+362,Lead 362,lead362@example.com,01220607151,LinkedIn,2026-03-16 01:18:00,lost
+363,Lead 363,lead363@example.com,01138720823,Website,2026-06-17 08:47:00,qualified
+364,Lead 364,lead364@example.com,01024660143,Email Campaign,2026-05-24 22:17:00,contacted
+365,Lead 365,lead365@example.com,01240289135,Conference,2026-03-04 01:42:00,contacted
+366,Lead 366,lead366@example.com,01173404979,Facebook,2026-01-14 03:26:00,contacted
+367,Lead 367,lead367@example.com,01064614193,Conference,2026-01-02 17:59:00,lost
+368,Lead 368,lead368@example.com,01153106399,LinkedIn,2026-05-03 20:12:00,new
+369,Lead 369,lead369@example.com,01081826922,Conference,2026-01-23 20:36:00,new
+370,Lead 370,lead370@example.com,01014877451,Referral,2026-02-14 13:56:00,lost
+371,Lead 371,lead371@example.com,01115028625,Facebook,2026-02-17 23:55:00,qualified
+372,Lead 372,lead372@example.com,01148193218,Referral,2026-05-26 19:06:00,lost
+373,Lead 373,lead373@example.com,01135878707,Facebook,2026-02-04 16:29:00,qualified
+374,Lead 374,lead374@example.com,01244529507,Conference,2026-02-11 23:29:00,contacted
+375,Lead 375,lead375@example.com,01186206305,Conference,2026-01-04 23:21:00,contacted
+376,Lead 376,lead376@example.com,01264423996,Referral,2026-02-14 19:54:00,qualified
+377,Lead 377,lead377@example.com,01034800912,Website,2026-01-23 12:42:00,lost
+378,Lead 378,lead378@example.com,01161482483,Website,2026-03-24 07:00:00,lost
+379,Lead 379,lead379@example.com,01286890296,Facebook,2026-03-10 10:19:00,qualified
+380,Lead 380,lead380@example.com,01018338186,Conference,2026-06-17 11:44:00,new
+381,Lead 381,lead381@example.com,01177447155,Conference,2026-04-30 09:10:00,qualified
+382,Lead 382,lead382@example.com,01159330907,Email Campaign,2026-06-26 03:40:00,contacted
+383,Lead 383,lead383@example.com,01071066203,Conference,2026-02-26 04:30:00,qualified
+384,Lead 384,lead384@example.com,01182144402,Conference,2026-04-17 22:35:00,contacted
+385,Lead 385,lead385@example.com,01220988446,Email Campaign,2026-03-05 21:48:00,lost
+386,Lead 386,lead386@example.com,01085721444,Facebook,2026-05-16 22:23:00,new
+387,Lead 387,lead387@example.com,01282029307,Website,2026-05-21 16:12:00,contacted
+388,Lead 388,lead388@example.com,01037568520,Conference,,lost
+389,Lead 389,lead389@example.com,01070858653,Website,2026-01-24 16:28:00,lost
+390,Lead 390,lead390@example.com,01272059365,Conference,2026-04-27 18:03:00,qualified
+391,Lead 391,lead391@example.com,01039246218,Email Campaign,2026-01-06 12:16:00,new
+392,Lead 392,lead392@example.com,01218557710,Email Campaign,2026-01-12 13:22:00,new
+393,Lead 393,lead393@example.com,01164877191,Website,2026-01-18 15:02:00,contacted
+394,Lead 394,lead394@example.com,01160259293,Referral,2026-06-14 23:41:00,lost
+395,Lead 395,lead395@example.com,01298824290,Email Campaign,2026-04-07 12:05:00,contacted
+396,Lead 396,lead396@example.com,01082109613,Referral,2026-06-17 11:07:00,contacted
+397,Lead 397,lead397@example.com,01050045602,Referral,2026-02-27 00:48:00,lost
+398,Lead 398,lead398@example.com,01043220503,Referral,2026-05-17 12:52:00,qualified
+399,Lead 399,lead399@example.com,01225145751,Facebook,2026-02-09 08:12:00,lost
+400,Lead 400,lead400@example.com,01019031632,Facebook,2026-06-07 00:15:00,new
+401,Lead 401,lead401@example.com,01216533225,Website,2026-04-25 19:43:00,new
+402,Lead 402,lead402@example.com,01239161379,Facebook,2026-04-13 14:14:00,contacted
+403,Lead 403,lead403@example.com,01287324220,LinkedIn,2026-05-09 09:14:00,qualified
+404,Lead 404,lead404@example.com,01098612211,Email Campaign,2026-03-02 09:56:00,contacted
+405,Lead 405,lead405@example.com,01084721440,Email Campaign,2026-04-16 09:17:00,contacted
+406,Lead 406,lead406@example.com,01276521096,Facebook,2026-06-10 21:27:00,qualified
+407,Lead 407,lead407@example.com,01252779814,Conference,2026-06-14 21:24:00,lost
+408,Lead 408,lead408@example.com,01134679818,Email Campaign,2026-04-15 04:19:00,lost
+409,Lead 409,lead409@example.com,01229374563,Referral,2026-03-03 07:19:00,new
+410,Lead 410,lead410@example.com,01281134297,Website,2026-05-24 13:26:00,lost
+411,Lead 411,lead411@example.com,01196799390,Facebook,2026-03-04 08:13:00,lost
+412,Lead 412,lead412@example.com,01235566010,Facebook,2026-04-05 02:34:00,qualified
+413,Lead 413,lead413@example.com,01215307982,Facebook,2026-04-07 21:38:00,contacted
+414,Lead 414,lead414@example.com,01239127464,Referral,2026-05-31 23:42:00,contacted
+415,Lead 415,lead415@example.com,01038428357,Website,2026-03-27 09:58:00,new
+416,Lead 416,lead416@example.com,01237449289,Referral,2026-05-03 07:44:00,contacted
+417,Lead 417,lead417@example.com,01161091554,Referral,2026-05-22 10:49:00,qualified
+418,Lead 418,lead418@example.com,01276743428,Referral,2026-03-20 08:23:00,new
+419,Lead 419,lead419@example.com,01059755172,LinkedIn,2026-05-01 10:58:00,lost
+420,Lead 420,lead420@example.com,01029585415,Facebook,2026-01-12 18:55:00,qualified
+421,,lead421@example.com,01266046380,LinkedIn,2026-05-22 18:37:00,contacted
+422,Lead 422,lead422@example.com,01186475853,Website,2026-02-20 10:14:00,lost
+423,Lead 423,lead423@example.com,01144537812,Referral,2026-05-21 20:43:00,lost
+424,Lead 424,lead424@example.com,01132718459,Website,2026-04-28 05:46:00,lost
+425,Lead 425,lead425@example.com,01080322629,Facebook,2026-02-17 17:41:00,new
+426,Lead 426,lead426@example.com,01065350347,Website,2026-06-21 01:48:00,contacted
+427,Lead 427,lead427@example.com,01039356057,Email Campaign,2026-01-18 22:09:00,lost
+428,Lead 428,lead428@example.com,01299490304,Email Campaign,2026-04-06 01:39:00,lost
+429,Lead 429,lead429@example.com,01081432350,Email Campaign,2026-06-18 15:01:00,lost
+430,Lead 430,lead430@example.com,01246875077,Email Campaign,2026-01-04 00:33:00,qualified
+431,Lead 431,lead431@example.com,01267790557,Website,2026-01-05 16:52:00,new
+432,Lead 432,lead432@example.com,01035760684,Email Campaign,2026-01-25 16:09:00,qualified
+433,Lead 433,lead433@example.com,01120605783,LinkedIn,2026-04-01 08:50:00,lost
+434,Lead 434,lead434@example.com,01240314047,LinkedIn,2026-04-28 18:15:00,new
+435,Lead 435,lead435@example.com,01022549425,Referral,2026-06-17 20:48:00,lost
+436,Lead 436,lead436@example.com,01095462880,Facebook,2026-04-07 17:30:00,contacted
+437,Lead 437,lead437@example.com,01196557984,LinkedIn,2026-01-22 15:54:00,new
+438,Lead 438,lead438@example.com,01086072480,Referral,2026-05-16 01:14:00,qualified
+439,Lead 439,lead439@example.com,01182884346,Email Campaign,2026-01-12 02:43:00,new
+440,Lead 440,lead440@example.com,01088790652,Website,2026-02-15 10:01:00,lost
+441,Lead 441,lead441@example.com,01242275631,Email Campaign,2026-01-20 09:10:00,lost
+442,Lead 442,lead442@example.com,01128783850,Conference,2026-06-23 17:21:00,new
+443,Lead 443,lead443@example.com,01023111164,Referral,2026-05-09 23:22:00,contacted
+444,Lead 444,lead444@example.com,01289941241,Referral,2026-01-20 10:38:00,qualified
+445,Lead 445,lead445@example.com,01175847681,Website,2026-01-08 20:17:00,qualified
+446,Lead 446,lead446@example.com,01088634827,Conference,2026-05-22 12:27:00,lost
+447,Lead 447,lead447@example.com,01019865900,Facebook,2026-01-22 19:18:00,qualified
+448,Lead 448,lead448@example.com,01230706693,Conference,2026-02-09 12:45:00,lost
+449,Lead 449,lead449@example.com,01010697290,LinkedIn,2026-03-23 11:06:00,lost
+450,Lead 450,lead450@,01021716836,Website,2026-04-03 08:06:00,lost
+451,Lead 451,lead451@example.com,01264766762,Facebook,2026-04-25 17:35:00,new
+452,Lead 452,lead452@example.com,01090117857,Email Campaign,2026-01-23 11:35:00,qualified
+453,Lead 453,lead453@example.com,01162049575,Facebook,2026-04-09 00:18:00,contacted
+454,Lead 454,lead454@example.com,01261100987,Website,2026-05-27 16:10:00,contacted
+455,Lead 455,lead455@example.com,01129587040,Facebook,2026-03-10 09:17:00,contacted
+456,Lead 456,lead456@example.com,01174992426,Facebook,2026-04-22 08:26:00,qualified
+457,Lead 457,lead457@example.com,01276545476,Email Campaign,2026-03-06 07:46:00,contacted
+458,Lead 458,lead458@example.com,01110908300,Referral,2026-04-28 03:08:00,qualified
+459,Lead 459,lead459@example.com,01169085720,LinkedIn,2026-06-08 12:51:00,lost
+460,Lead 460,lead460@example.com,01153038948,Email Campaign,2026-06-16 19:08:00,contacted
+461,Lead 461,lead461@example.com,01152833932,LinkedIn,2026-05-03 10:11:00,lost
+462,Lead 462,lead462@example.com,01147621248,Referral,2026-05-28 07:20:00,qualified
+463,Lead 463,lead463@example.com,01283233096,Website,2026-01-30 18:12:00,new
+464,Lead 464,lead464@example.com,01149101812,Conference,2026-04-29 22:13:00,new
+465,Lead 465,lead465@example.com,01095004924,LinkedIn,2026-04-15 21:31:00,contacted
+466,Lead 466,lead466@example.com,01266791272,Referral,2026-03-06 21:09:00,new
+467,Lead 467,lead467@example.com,01263795149,Email Campaign,2026-04-25 19:30:00,lost
+468,Lead 468,lead468@example.com,01182062301,Email Campaign,2026-05-20 01:50:00,new
+469,Lead 469,lead469@example.com,01257648477,Website,2026-01-28 07:42:00,new
+470,Lead 470,lead470@example.com,01263635785,LinkedIn,2026-05-25 20:43:00,lost
+471,Lead 471,lead471@example.com,01139796480,Email Campaign,2026-01-28 00:06:00,contacted
+472,Lead 472,lead472@example.com,01188999206,Conference,2026-04-25 11:25:00,contacted
+473,Lead 473,lead473@example.com,01049652241,Referral,2026-03-30 00:30:00,new
+474,Lead 474,lead474@example.com,01151861213,LinkedIn,2026-01-30 23:09:00,lost
+475,Lead 475,lead475@example.com,01173909453,Facebook,2026-02-22 16:30:00,lost
+476,Lead 476,lead476@example.com,01050300763,Facebook,2026-06-28 14:20:00,new
+477,Lead 477,lead477@example.com,01032059232,Conference,2026-01-06 10:41:00,Qualified
+478,Lead 478,lead478@example.com,01054424679,Email Campaign,2026-05-13 05:35:00,lost
+479,Lead 479,lead479@example.com,01194524999,Website,2026-04-29 07:51:00,contacted
+480,Lead 480,lead480@example.com,01113918120,Conference,2026-06-13 21:27:00,contacted
+481,Lead 481,lead481@example.com,01110597274,Conference,2026-04-26 18:27:00,contacted
+482,Lead 482,lead482@example.com,01218397164,Email Campaign,2026-02-22 08:48:00,new
+483,Lead 483,lead483@example.com,01136450861,Referral,2026-05-18 05:23:00,new
+484,Lead 484,lead484@example.com,01180828710,Conference,2026-03-09 21:55:00,qualified
+485,Lead 485,lead485@example.com,01188786439,Facebook,2026-06-02 12:39:00,qualified
+486,Lead 486,lead486@example.com,01049922369,Email Campaign,2026-04-01 14:39:00,new
+487,Lead 487,lead487@example.com,01042020689,LinkedIn,2026-06-22 04:20:00,new
+488,Lead 488,lead488@example.com,01078561753,Referral,2026-02-16 11:44:00,lost
+489,Lead 489,lead489@example.com,01166779304,Website,2026-06-02 04:36:00,lost
+,Lead 490,lead490@example.com,01233251181,Email Campaign,2026-06-12 17:44:00,contacted
+491,Lead 491,lead491@example.com,01052222214,Referral,2026-05-06 09:08:00,new
+492,Lead 492,lead492@example.com,01036189702,Referral,2026-04-02 00:31:00,lost
+493,Lead 493,lead493@example.com,01169572772,Referral,2026-04-15 21:31:00,contacted
+494,Lead 494,lead494@example.com,01049203644,Facebook,2026-01-22 18:01:00,qualified
+495,Lead 495,lead495@example.com,01071380637,Email Campaign,2026-02-27 17:18:00,lost
+496,Lead 496,lead496@example.com,01225328557,LinkedIn,2026-05-21 16:07:00,qualified
+497,Lead 497,lead497@example.com,01269239219,Email Campaign,2026-13-01,contacted
+498,Lead 498,lead498@example.com,01243223132,LinkedIn,2026-04-19 03:47:00,new
+499,Lead 499,lead499@example.com,01068930964,Facebook,2026-04-26 08:22:00,contacted
+500,Lead 500,lead500@example.com,01257060874,Conference,2026-02-23 23:37:00,lost
