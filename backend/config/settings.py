@@ -38,9 +38,11 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 
-    
+
     "rest_framework",
     "leads",
+    "analytics",
+
 ]
 
 MIDDLEWARE = [
@@ -80,7 +82,12 @@ DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
         "NAME": BASE_DIR / "db.sqlite3",
-    }
+    },
+
+    "analytics": {
+        "ENGINE": "django.db.backends.sqlite3",
+        "NAME": BASE_DIR / "analytics.sqlite3",
+    },
 }
 
 
@@ -124,3 +131,7 @@ STATIC_URL = "static/"
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+DATABASE_ROUTERS = [
+    "config.routers.AnalyticsRouter",
+]
