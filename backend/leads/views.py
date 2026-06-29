@@ -1,44 +1,50 @@
 from django.shortcuts import get_object_or_404
+from django.db.models import Q
 
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 
-from .models import Lead
-from .serializers import LeadSerializer
+from .models import Lead, Source, Status
+from .serializers import (
+    LeadSerializer,
+    SourceSerializer,
+    StatusSerializer,
+)
 
 
 class LeadListAPI(APIView):
 
     def filter_queryset(self, request, queryset):
-        """
-        Apply search and filtering.
-        """
 
         search = request.query_params.get("search")
-        status_filter = request.query_params.get("status")
         source = request.query_params.get("source")
+        status_filter = request.query_params.get("status")
 
         if search:
             queryset = queryset.filter(
-                name__icontains=search
-            )
-
-        if status_filter:
-            queryset = queryset.filter(
-                status=status_filter
+                Q(name__icontains=search) |
+                Q(email__icontains=search)
             )
 
         if source:
             queryset = queryset.filter(
-                source__icontains=source
+                source__name__iexact=source
+            )
+
+        if status_filter:
+            queryset = queryset.filter(
+                status__name__iexact=status_filter
             )
 
         return queryset
 
     def get(self, request):
 
-        leads = Lead.objects.all()
+        leads = Lead.objects.select_related(
+            "source",
+            "status"
+        )
 
         leads = self.filter_queryset(
             request,
@@ -77,15 +83,18 @@ class LeadDetailAPI(APIView):
 
     def get_object(self, pk):
         return get_object_or_404(
-            Lead,
+            Lead.objects.select_related(
+                "source",
+                "status"
+            ),
             pk=pk
         )
 
     def get(self, request, pk):
 
-        lead = self.get_object(pk)
-
-        serializer = LeadSerializer(lead)
+        serializer = LeadSerializer(
+            self.get_object(pk)
+        )
 
         return Response(serializer.data)
 
@@ -112,10 +121,32 @@ class LeadDetailAPI(APIView):
 
     def delete(self, request, pk):
 
-        lead = self.get_object(pk)
-
-        lead.delete()
+        self.get_object(pk).delete()
 
         return Response(
             status=status.HTTP_204_NO_CONTENT
         )
+
+
+class SourceListAPI(APIView):
+
+    def get(self, request):
+
+        serializer = SourceSerializer(
+            Source.objects.all(),
+            many=True
+        )
+
+        return Response(serializer.data)
+
+
+class StatusListAPI(APIView):
+
+    def get(self, request):
+
+        serializer = StatusSerializer(
+            Status.objects.all(),
+            many=True
+        )
+
+        return Response(serializer.data)

@@ -3,6 +3,8 @@ from django.urls import path
 from .views import (
     LeadListAPI,
     LeadDetailAPI,
+    SourceListAPI,
+    StatusListAPI,
 )
 
 urlpatterns = [
@@ -16,5 +18,17 @@ urlpatterns = [
         "<int:pk>/",
         LeadDetailAPI.as_view(),
         name="lead-detail",
+    ),
+
+    path(
+        "sources/",
+        SourceListAPI.as_view(),
+        name="source-list",
+    ),
+
+    path(
+        "statuses/",
+        StatusListAPI.as_view(),
+        name="status-list",
     ),
 ]
