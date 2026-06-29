@@ -1,0 +1,16 @@
+lead_id,name,email,phone,source,created_at,status,errors
+24,Lead 24,,01093926371,LinkedIn,2026-05-09 05:32:00,contacted,email is required
+57,Lead 57,lead57@example.com,01191178885,Website,2026-05-22 04:17:00,pending,Unsupported status 'pending'
+83,Lead 83,lead83@example.com,01140150759,Website,31/02/2026,contacted,Invalid date
+,Lead 112,lead112@example.com,01259737181,Facebook,2026-03-30 17:27:00,qualified,lead_id is required
+145,Lead 145,not-an-email,01243603811,Facebook,2026-04-21 23:20:00,new,Invalid email address
+203,Lead 203,lead203@example.com,,Referral,2026-01-16 12:17:00,new,phone is required
+231,Lead 231,lead231@example.com,01059667685,LinkedIn,invalid-date,qualified,Invalid date
+299,Lead 299,lead299@example.com,01067795113,,2026-01-22 23:27:00,contacted,source is required
+322,Lead 322,lead322example.com,01240262109,LinkedIn,2026-02-12 05:20:00,qualified,Invalid email address
+351,Lead 351,lead351@example.com,01080361272,Conference,2026-01-14 18:30:00,Closed,Unsupported status 'Closed'
+388,Lead 388,lead388@example.com,01037568520,Conference,,lost,created_at is required
+421,,lead421@example.com,01266046380,LinkedIn,2026-05-22 18:37:00,contacted,name is required
+450,Lead 450,lead450@,01021716836,Website,2026-04-03 08:06:00,lost,Invalid email address
+,Lead 490,lead490@example.com,01233251181,Email Campaign,2026-06-12 17:44:00,contacted,lead_id is required
+497,Lead 497,lead497@example.com,01269239219,Email Campaign,2026-13-01,contacted,Invalid date
