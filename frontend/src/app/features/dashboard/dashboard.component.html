@@ -1,1 +1,47 @@
-<p>dashboard works!</p>
+@if (dashboard) {
+
+<div class="dashboard">
+
+    <div class="page-title">
+
+        <h1>Dashboard</h1>
+
+        <p>Welcome back 👋</p>
+
+    </div>
+
+    <div class="stats">
+
+        <app-stat-card
+            title="Total Leads"
+            [value]="dashboard.summary.total_leads"
+            icon="pi-users">
+        </app-stat-card>
+
+        <app-stat-card
+            title="Sources"
+            [value]="dashboard.summary.total_sources"
+            icon="pi-globe">
+        </app-stat-card>
+
+        <app-stat-card
+            title="Statuses"
+            [value]="dashboard.summary.total_statuses"
+            icon="pi-tag">
+        </app-stat-card>
+
+    </div>
+
+</div>
+
+} @else {
+
+    <div class="loading">
+
+        <p-progress-spinner
+        strokeWidth="4">
+        </p-progress-spinner>
+    
+    </div>
+
+}

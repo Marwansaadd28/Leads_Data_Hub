@@ -1,0 +1,25 @@
+.card-content{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+h2{
+
+    margin-top:.5rem;
+
+    font-size:34px;
+
+}
+
+i{
+
+    font-size:40px;
+
+    color:#3b82f6;
+
+}

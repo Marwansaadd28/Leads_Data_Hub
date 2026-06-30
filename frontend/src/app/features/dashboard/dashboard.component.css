@@ -1,0 +1,64 @@
+.dashboard{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:2rem;
+
+}
+
+.page-title h1{
+
+    margin:0;
+
+    font-size:34px;
+
+}
+
+.page-title p{
+
+    color:#64748b;
+
+}
+
+.stats{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:1.5rem;
+
+}
+
+.charts{
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:1.5rem;
+
+}
+
+.recent{
+
+    background:white;
+
+    border-radius:16px;
+
+    padding:1.5rem;
+
+}
+.loading {
+
+    height: 60vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
