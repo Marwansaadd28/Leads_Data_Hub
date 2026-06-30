@@ -3,9 +3,7 @@
     <div class="logo">
 
         <div class="logo-icon">
-
             LD
-
         </div>
 
         <span>Leads Hub</span>
@@ -16,25 +14,17 @@
 
         <a
             routerLink="/dashboard"
-            routerLinkActive="active">
-
+            routerLinkActive="active"
+            [routerLinkActiveOptions]="{ exact: true }">
             Dashboard
-
         </a>
 
         <a
             routerLink="/leads"
             routerLinkActive="active">
-
             Leads
-
         </a>
 
     </div>
-
-    <p-avatar
-        label="M"
-        shape="circle">
-    </p-avatar>
 
 </nav>

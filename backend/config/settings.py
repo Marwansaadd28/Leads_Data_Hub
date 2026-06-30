@@ -42,11 +42,14 @@ INSTALLED_APPS = [
     "rest_framework",
     "leads",
     "analytics",
+    "corsheaders",
+  
 
 ]
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "corsheaders.middleware.CorsMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -134,4 +137,8 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 DATABASE_ROUTERS = [
     "config.routers.AnalyticsRouter",
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:4200",
 ]
