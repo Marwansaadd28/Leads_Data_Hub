@@ -39,6 +39,24 @@ class LeadListAPI(APIView):
 
         return queryset
 
+    def paginate_queryset(self, request, queryset):
+
+        page = int(request.query_params.get("page", 1))
+        page_size = int(request.query_params.get("page_size", 20))
+
+        start = (page - 1) * page_size
+        end = start + page_size
+
+        total = queryset.count()
+
+        return {
+            "count": total,
+            "page": page,
+            "page_size": page_size,
+            "total_pages": (total + page_size - 1) // page_size,
+            "results": queryset[start:end],
+        }
+    
     def get(self, request):
 
         leads = Lead.objects.select_related(
@@ -51,12 +69,23 @@ class LeadListAPI(APIView):
             leads
         )
 
+        paginated = self.paginate_queryset(
+            request,
+            leads
+        )
+
         serializer = LeadSerializer(
-            leads,
+            paginated["results"],
             many=True
         )
 
-        return Response(serializer.data)
+        return Response({
+            "count": paginated["count"],
+            "page": paginated["page"],
+            "page_size": paginated["page_size"],
+            "total_pages": paginated["total_pages"],
+            "results": serializer.data,
+        })
 
     def post(self, request):
 
