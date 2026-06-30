@@ -1,4 +1,5 @@
 from django.urls import path
+from .dashboard import DashboardAPI
 
 from .views import (
     LeadListAPI,
@@ -30,5 +31,11 @@ urlpatterns = [
         "statuses/",
         StatusListAPI.as_view(),
         name="status-list",
+    ),
+
+    path(
+        "dashboard/",
+        DashboardAPI.as_view(),
+        name="dashboard",
     ),
 ]
