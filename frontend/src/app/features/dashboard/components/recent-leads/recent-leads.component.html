@@ -1,0 +1,86 @@
+<p-table
+    [value]="leads"
+    responsiveLayout="scroll">
+    [rows]="5"
+    responsiveLayout="scroll">
+
+    <ng-template pTemplate="header">
+
+        <tr>
+
+            <th>Name</th>
+
+            <th>Email</th>
+
+            <th>Source</th>
+
+            <th>Status</th>
+
+            <th>Created</th>
+
+            <th style="width:170px">
+                Actions
+            </th>
+
+        </tr>
+
+    </ng-template>
+
+    <ng-template
+        pTemplate="body"
+        let-lead>
+
+        <tr>
+
+            <td>{{lead.name}}</td>
+
+            <td>{{lead.email}}</td>
+
+            <td>{{lead.source}}</td>
+
+            <td>
+
+                <p-tag
+                    [value]="lead.status"
+                    [severity]="getSeverity(lead.status)">
+                </p-tag>
+
+            </td>
+
+            <td>
+
+                {{lead.created_at | date:'mediumDate'}}
+
+            </td>
+
+            <td>
+
+                <button
+                    pButton
+                    icon="pi pi-eye"
+                    rounded
+                    text>
+                </button>
+
+                <button
+                    pButton
+                    icon="pi pi-pencil"
+                    rounded
+                    text>
+                </button>
+
+                <button
+                    pButton
+                    icon="pi pi-trash"
+                    rounded
+                    text
+                    severity="danger">
+                </button>
+
+            </td>
+
+        </tr>
+
+    </ng-template>
+
+</p-table>

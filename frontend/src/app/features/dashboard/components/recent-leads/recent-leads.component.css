@@ -1,0 +1,31 @@
+:host{
+
+    display:block;
+
+}
+
+:host ::ng-deep .p-datatable{
+
+    border-radius:18px;
+
+    overflow:hidden;
+
+}
+
+:host ::ng-deep .p-datatable-header{
+
+    background:white;
+
+}
+
+:host ::ng-deep th{
+
+    background:#f8fafc;
+
+}
+
+:host ::ng-deep tr:hover{
+
+    background:#f8fbff;
+
+}

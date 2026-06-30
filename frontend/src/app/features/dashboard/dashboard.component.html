@@ -1,47 +1,86 @@
 @if (dashboard) {
 
-<div class="dashboard">
+    <div class="dashboard">
+    
+        <div class="page-title">
+    
+            <h1>Dashboard</h1>
+    
+            <p>Welcome back 👋</p>
+    
+        </div>
+    
+        <div class="stats">
+    
+            <app-stat-card
+                title="Total Leads"
+                [value]="dashboard.summary.total_leads"
+                icon="pi pi-users">
+            </app-stat-card>
+    
+            <app-stat-card
+                title="Sources"
+                [value]="dashboard.summary.total_sources"
+                icon="pi pi-globe">
+            </app-stat-card>
+    
+            <app-stat-card
+                title="Statuses"
+                [value]="dashboard.summary.total_statuses"
+                icon="pi pi-tag">
+            </app-stat-card>
+    
+        </div>
+    
+        <div class="charts">
 
-    <div class="page-title">
+            <p-card header="Leads by Source">
+        
+                <div class="chart-container">
+        
+                    <p-chart
+                        type="pie"
+                        [data]="sourceChartData"
+                        [options]="sourceChartOptions">
+                    </p-chart>
+        
+                </div>
+        
+            </p-card>
+        
+            <app-status-chart
+                [data]="dashboard.leads_by_status">
+            </app-status-chart>
+        
+        </div>
+        
+        <div class="recent-leads">
+        
+            <app-recent-leads
+                [leads]="dashboard.recent_leads">
+            </app-recent-leads>
+        
+        </div>
+        <div class="recent-leads">
 
-        <h1>Dashboard</h1>
-
-        <p>Welcome back 👋</p>
-
-    </div>
-
-    <div class="stats">
-
-        <app-stat-card
-            title="Total Leads"
-            [value]="dashboard.summary.total_leads"
-            icon="pi-users">
-        </app-stat-card>
-
-        <app-stat-card
-            title="Sources"
-            [value]="dashboard.summary.total_sources"
-            icon="pi-globe">
-        </app-stat-card>
-
-        <app-stat-card
-            title="Statuses"
-            [value]="dashboard.summary.total_statuses"
-            icon="pi-tag">
-        </app-stat-card>
-
-    </div>
-
-</div>
-
-} @else {
-
-    <div class="loading">
-
-        <p-progress-spinner
-        strokeWidth="4">
-        </p-progress-spinner>
+            <p-card header="Recent Leads">
+        
+                <app-recent-leads
+                    [leads]="dashboard.recent_leads">
+                </app-recent-leads>
+        
+            </p-card>
+        
+        </div>
     
     </div>
-
-}
+    
+    } @else {
+    
+    <div class="loading">
+    
+        Loading dashboard...
+    
+    </div>
+    
+    }

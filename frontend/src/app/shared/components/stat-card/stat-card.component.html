@@ -1,20 +1,39 @@
-<p-card>
+<p-card styleClass="stat-card">
 
-    <div class="card-content">
+    <div class="stat-header">
 
         <div>
 
-            <small>{{title}}</small>
+            <span class="title">
 
-            <h2>{{value}}</h2>
+                {{ title }}
+
+            </span>
+
+            <h2>
+
+                {{ value }}
+
+            </h2>
 
         </div>
 
-        <i
-            class="pi"
-            [class]="icon">
+        <div class="icon-box">
 
-        </i>
+            <i
+                class="pi"
+                [class]="icon">
+            </i>
+
+        </div>
+
+    </div>
+
+    <div class="trend">
+
+        <i class="pi pi-arrow-up"></i>
+
+        <span>12% from last month</span>
 
     </div>
 
